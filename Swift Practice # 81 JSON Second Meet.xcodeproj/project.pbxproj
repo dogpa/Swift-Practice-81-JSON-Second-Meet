@@ -13,6 +13,8 @@
 		2DCC9B9526F764CA002578E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC9B9326F764CA002578E8 /* Main.storyboard */; };
 		2DCC9B9726F764CB002578E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC9B9626F764CB002578E8 /* Assets.xcassets */; };
 		2DCC9B9A26F764CB002578E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCC9B9826F764CB002578E8 /* LaunchScreen.storyboard */; };
+		2DCC9BA226F766AA002578E8 /* SingerDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC9BA126F766AA002578E8 /* SingerDetailsTableViewCell.swift */; };
+		2DCC9BA426F766BB002578E8 /* APPLE Search JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC9BA326F766BB002578E8 /* APPLE Search JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2DCC9B9626F764CB002578E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCC9B9926F764CB002578E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DCC9B9B26F764CB002578E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCC9BA126F766AA002578E8 /* SingerDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		2DCC9BA326F766BB002578E8 /* APPLE Search JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APPLE Search JSON.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				2DCC9B8D26F764CA002578E8 /* AppDelegate.swift */,
 				2DCC9B8F26F764CA002578E8 /* SceneDelegate.swift */,
 				2DCC9B9126F764CA002578E8 /* ViewController.swift */,
+				2DCC9BA126F766AA002578E8 /* SingerDetailsTableViewCell.swift */,
+				2DCC9BA326F766BB002578E8 /* APPLE Search JSON.swift */,
 				2DCC9B9326F764CA002578E8 /* Main.storyboard */,
 				2DCC9B9626F764CB002578E8 /* Assets.xcassets */,
 				2DCC9B9826F764CB002578E8 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCC9BA226F766AA002578E8 /* SingerDetailsTableViewCell.swift in Sources */,
 				2DCC9B9226F764CA002578E8 /* ViewController.swift in Sources */,
 				2DCC9B8E26F764CA002578E8 /* AppDelegate.swift in Sources */,
+				2DCC9BA426F766BB002578E8 /* APPLE Search JSON.swift in Sources */,
 				2DCC9B9026F764CA002578E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
